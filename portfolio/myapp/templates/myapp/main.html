@@ -1,0 +1,208 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="{% static  '/css/style.css' %}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+   
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-light" >Portfolio</a>
+         
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <br><br><br><br>
+      <div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/2.jpg' %}" >
+					<hr>
+					<h4>Hi I'm priyanka!</h4>
+				
+					
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Introduction</h4>
+					<hr>
+
+					<p><i><b>Skills:</b></i>     Python , Java Script ,React , Node.js , Web , c++ , Java ,  Deep Learning</p>
+
+					<p><i><b>Intrests:</b></i>   Cyber Security , Robotics , IOT ,Machine Learning /AI , Block chain , Web , Mobile Application </p>
+                     
+					<p><i><b>Location:</b></i>  Hyderabad , India</p>
+
+					<p><i><b>Occupation:</b></i> Student</p>
+
+				
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<h1>Portfolio</h1>
+		<br>
+		
+		
+			<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+                   
+					<img  src="{% static 'images/image1.png' %}" >
+					<hr>
+					<p>Web Surfers.</p>
+
+					<p>Many creatures have suffered due to the negligence of humans and so it’s time we become responsible for our actions. This fundraiser has the motive of saving the beaches while also ensuring that the people taking part have loads of fun. The fundraiser has many activities that individuals can partake in.</p>
+					<a href="https://websurfers000.000webhostapp.com/" class="btn btn-outline-dark btn-sm m-1">View </a>
+				</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<img  src="{% static 'images/image2.png' %}" >
+				<hr>
+                <p>Aadhar Face Authenticatin.</p>
+			
+				<p>Face authentication is a web application for Aadhar Hackathon. This Application Login with the kyc zip file and fetches all the information from thr Aadhar Card. It Compares the profile from the Aadhar and webcam generated photo and detects the Accuracy of the image. This application also contains Phone number authentication.  </p>
+				<a href="https://github.com/priyanka-panaganti/aadhar-hackathon" class="btn btn-outline-dark btn-sm m-1">View </a>
+				</div>
+			</div>
+		   
+			
+		</div>
+		<br>
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+                   
+					<img  src="{% static 'images/image3.png' %}" >
+					<hr>
+					<p>Home Finder.</p>
+
+					<p>HomeFinder is a premier online resource for finding homes for sale and rentals in the India. With millions of real estate listings, including home foreclosures and rent to own homes, HomeFinder will bring the real estate market to your fingertips.</p>
+				    <a href="https://priyanka-panaganti.github.io/UID-project-/landing%20page.html" class="btn btn-outline-dark btn-sm m-1">View </a>
+				</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<img  src="{% static 'images/image6.png' %}" >
+				<hr>
+                <p>Report Card Generator.</p>
+			
+				<p>This Application Takes inputs of the marks of the student and displays the report card.It displays the max score subject , least score subject , grades and percentage </p>
+				<br>
+				<a href="" class="btn btn-outline-dark btn-sm m-1">View </a>
+				</div>
+			</div>
+		   
+			
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+                   
+					<img  src="{% static 'images/image5.png' %}" >
+					<hr>
+					<p>Environmental Awareness. </p>
+
+					<p> Environmental awareness is an incredibly important part of our lives. In order to protect the sustainability of the planet, everyone needs to commit to becoming more environmentally aware.Environmental degradation is detrimental and is jeopardising the long-term health and security of animals, plants and humans.</p>
+				   
+					<a href="https://priyanka-panaganti.github.io/environmental-awareness/semantic1.html" class="btn btn-outline-dark btn-sm m-1">View </a>
+				</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<img  src="{% static 'images/image4.png' %}" >
+				<hr>
+                <p>To-Do List.</p>
+			
+				<p>By keeping such a list, you make sure that your tasks are written down all in one place so you don't forget anything important. And by prioritizing tasks, you plan the order in which you'll do them, so that you can tell what needs your immediate attention, and what you can leave until later. </p>
+				<BR>
+				<a href="https://priyanka-panaganti.github.io/open-source-task-3-project-3/index.html" class="btn btn-outline-dark btn-sm m-1">View </a>
+				</div>
+			</div>
+		   
+			
+		</div>
+			<br>
+			<a href="https://github.com/priyanka-panaganti" class="btn btn-outline-dark btn-sm m-1 "> Check Out Here for more stuff!!</a>
+
+		<h1>Contact</h1>
+		<div class="row">
+		<div class="col-md-12">
+			<div class="card card-body h-100  border-info">
+				<form method='post' class="form">
+					
+					
+					
+					<div class="mb-3">
+						<label for="exampleInputEmail1" class="form-label">Name</label>
+						<input type="text" class="form-control" name="username" id="exampleInputEmail1"
+							aria-describedby="emailHelp">
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputPassword1" class="form-label">Email</label>
+						<input type="password" class="form-control" name="password" id="exampleInputPassword1">
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputPassword1" class="form-label">subject</label>
+						<input type="password" class="form-control" name="password" id="exampleInputPassword1">
+					</div>
+					<div class="mb-3">
+						<label for="exampleInputPassword1" class="form-label">Message</label>
+						<input type="password" class="form-control" name="password" id="exampleInputPassword1">
+					</div>
+	
+					<button type="submit" class="btn btn-primary">Send Message</button>
+					
+				</form>
+			
+
+			</div>
+		</div>
+		</div>
+		<br>
+	</div>
+
+
+
+
+  </body>
+</html>
+
+
+
+
